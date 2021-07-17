@@ -251,7 +251,12 @@ section:nth-child(2n + 1) {
     border-radius: 50%;
     z-index: 1;
 }
-
+.bb{
+    left:32%;
+}
+.bb::after{
+    background-color: white;
+}
 .timeline-box:nth-child(2n) {
     left: 53%;
 }
